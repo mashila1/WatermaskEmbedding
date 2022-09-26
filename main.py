@@ -21,8 +21,8 @@ def display_result(ori_bg, ori_wm, embed, ext_bg, ext_wm, emd_bits):
 
 def main():
     img_shape = (800, 600)
-    ori_img = cv2.imread('image1.jpg', cv2.IMREAD_GRAYSCALE)
-    watermask = cv2.imread('watermask1.jpg', cv2.IMREAD_GRAYSCALE)
+    ori_img = cv2.imread('image.jpg', cv2.IMREAD_GRAYSCALE)
+    watermask = cv2.imread('watermask.jpg', cv2.IMREAD_GRAYSCALE)
 
     # one bit embeding
     one_bit_embed = watermask_module()
